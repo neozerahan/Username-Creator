@@ -19,10 +19,6 @@
 #define ERRORMSG_MIN_CHAR           "ERROR: User-name must have atleast 4 or more characters. Please try again!"
 #define ERRORMSG_NO_CHAR            "ERROR: User-name must contain atleast 3 Alphabets. Please try again!"
 
-#define SPECIAL_CHAR_RANGE_1        33
-#define SPECIAL_CHAR_RANGE_2        47
-#define SPECIAL_CHAR_RANGE_3        58
-#define SPECIAL_CHAR_RANGE_4        64
 #define MINIMUM_CHAR_USERNAME       4
 #define MINIMUM_ALPHABET_USERNAME   3
 
