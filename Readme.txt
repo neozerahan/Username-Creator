@@ -4,8 +4,7 @@
 
 #Description
 
-Username Creator is a small project developed during my journey to learn the C language. This program facilitates the creation of 
-usernames with various checks, including:
+Username Creator is a small project developed during my journey to learn the C language. This program facilitates the creation of usernames with various checks, including:
 
 1. Maximum Character Limit: Ensures that usernames are created within a specified character limit.
 2. Special Character Check: Prohibits the use of special characters in the username.
@@ -13,20 +12,17 @@ usernames with various checks, including:
 4. Minimum Alphabetical Character Check: Requires a minimum number of alphabets for creating a username.
 5. Email Address Concatenation: Appends a custom email address after generating the username.
 
--------------------------------------
-
-#Things to improve: User Interface and experience.
+NOTE: I have deliberatly written functions that can be handled using the default C library i.e string.h, and others. I am doing this to get the hang of the language and to quench my curiousity. 
 
 -------------------------------------
 
 #Project Structure
-1. SOURCE:
+1. Source:
 >> Main.c: Serves as the entry point for the program.
 >> Helper.c: Contains all the functions.
 
-2. HEADER:
->> Define.h: Holds all the definitions. Many program configurations, such as special character ranges, minimum character limits, 
-   required minimum alphabets, and username character limits, can be adjusted here.
+2. Header:
+>> Define.h: Holds all the definitions. Many program configurations, such as special character ranges, minimum character limits, required minimum alphabets, and username character limits, can be adjusted here.
 >> Helper.h: Provides the definitions for all functions.
 
 -------------------------------------
